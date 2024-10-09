@@ -1,0 +1,114 @@
+@charset "utf-8";
+body {
+    width: 100%;
+    height: 100%;
+}
+header img {
+    margin-top: 0px;
+
+
+}
+
+
+header div h1 {
+    margin-left: 159px;
+    text-align: left;
+    margin-top: -99px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+}
+header div p {
+    margin-left: 163px;
+    margin-top: -7px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0px;
+}
+
+hr {
+    border-bottom: thick solid rgba(0,0,0,1.00);
+    margin-bottom: 0px;
+    margin-top: 34px;
+}
+
+nav ul {
+    padding: 0; /* Remove default padding */
+    margin: 0;  /* Remove default margin */
+    text-align: left; /* Align items to the left */
+    overflow: hidden; /* Clear floats inside ul */
+}
+
+nav ul li {
+    list-style-type: none;
+    list-style-image: none;
+    float: none;
+    display: inline-block;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    vertical-align: baseline;
+    border: medium solid rgba(0,0,0,1.00);
+    border-radius: 13px;
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(57,122,21,1.00);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 45px;
+    padding-top: 12px;
+    padding-right: 45px;
+    padding-bottom: 11px;
+    margin-top: 13px;
+    margin-right: 11px;
+    -webkit-box-shadow: 0 0 0px 0 rgba(214,211,211,1.00);
+    box-shadow: 0 0 0px 0 rgba(214,211,211,1.00);
+    background-origin: padding-box;
+    background-position: 100px 100px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -1px -1px 5px rgba(255, 255, 255, 0.7); /* Adding shadows */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    cursor: pointer;
+    margin-left: 18px;
+}
+
+
+
+nav ul li:hover {
+    background-color: rgba(45, 100, 15, 1.00); /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -2px -2px 10px rgba(255, 255, 255, 0.5); /* Enhanced shadows on hover */
+}
+section table {
+    width: 100%;
+    border: thick double rgba(0,0,0,1.00);
+}
+
+
+
+
+section table title {
+    background-color: #f2f2f2;
+    border-collapse: separate;
+}
+body ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 47px;
+}
+div ul li {
+    font-weight: normal;
+    margin-right: 24px;
+    margin-left: 0px;
+    text-align: left;
+    font-size: large;
+    display: inline-block;
+    list-style-type: none;
+}
+div ul li:hover {
+    color: rgba(0,0,82,1.00);
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+}
